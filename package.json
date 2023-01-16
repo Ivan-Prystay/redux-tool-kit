@@ -2,7 +2,7 @@
   "name": "redux",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ivan-prystay.github.io/redux/",
+  "homepage": "https://ivan-prystay.github.io/redux-tool-kit/",
   "dependencies": {
     "@redux-devtools/extension": "3.2.3",
     "@reduxjs/toolkit": "^1.9.1",
@@ -23,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:js": "eslint src/**/*.{js,jsx}"
   },
   "eslintConfig": {
     "extends": [
